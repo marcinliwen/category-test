@@ -1,0 +1,48 @@
+.header-title h1{
+    font-size: 1rem;
+    margin: 0;
+}
+.sectoin-title h3{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 3rem;
+    height: 3rem;
+    top: 50%;
+}
+.owl-nav > button > span{
+    display: none;
+}
+.carousel-control-next.disabled:focus, .carousel-control-next.disabled:hover, .carousel-control-prev.disabled:focus, .carousel-control-prev.disabled:hover {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .5;
+}
+.carousel-control-next, .carousel-control-prev{
+    margin-top: 60px;
+    align-items: flex-start
+}
+.owl-carousel .owl-item img{
+    max-width: 180px;
+}
+@media (min-width: 768px){
+    .header-title h1{
+        font-size: 2rem;
+    }
+    .sectoin-title h3{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: auto;
+    }
+}
+@media(max-width: 767px){
+    .item-description{
+        max-width: 180px;
+        margin: auto;
+        padding: 2rem 0;
+    }
+}
